@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31870cf9-d536-4624-ac22-9252abbf4bdf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAboutLock/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAboutLock/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,8 +68,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyAppAboutLock/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="198">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -175,8 +175,8 @@
         <option value="$PROJECT_DIR$/venv/decode.py" />
         <option value="$PROJECT_DIR$/encode.py" />
         <option value="$PROJECT_DIR$/decode.py" />
-        <option value="$PROJECT_DIR$/MyAppAboutLock/settings.py" />
         <option value="4bd4ea73-67eb-4e40-89dd-7863a042dbad/schema/mysite/table/login_user.sql" />
+        <option value="$PROJECT_DIR$/MyAppAboutLock/settings.py" />
       </list>
     </option>
   </component>
@@ -413,6 +413,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1548" height="831" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4691689" side_tool="true" weight="0.32890856" />
@@ -836,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyAppAboutLock/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="198">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'mysite',
         'USER': 'root',
         'PASSWORD': 'zxcv1234',
-        'HOST': '193.112.123.218',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
