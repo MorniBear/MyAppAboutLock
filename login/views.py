@@ -152,5 +152,5 @@ def user_confirm(request):
         confirm.user.has_confirmed = True
         confirm.user.save()
         confirm.delete()
-        message = '感谢确认，请使用账户登录！'
+        message = '感谢  确认，请使用账户登录！'
         return render(request, 'login/confirm.html', locals())
