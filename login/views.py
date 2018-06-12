@@ -2,6 +2,7 @@ import datetime
 import hashlib
 
 import pytz
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 
@@ -40,6 +41,11 @@ def send_email(email, code):
     msg = EmailMultiAlternatives(subject, text_content, settings.EMAIL_HOST_USER, [email])
     msg.attach_alternative(html_content, "text/html")
     msg.send()
+
+
+def root(request):
+    flag = 1
+    return render(request, 'login/root.html', locals())
 
 
 def index(request):
