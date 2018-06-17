@@ -47,7 +47,7 @@ def identification(request):
     lock = models.Lock.objects.get(lock_name='mornibear')
     lock.lock_status = 1
     lock.save()
-    return render(request,None)
+    return render(request,'login/band.html')
 
 
 def root(request):
