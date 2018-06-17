@@ -43,8 +43,17 @@ def send_email(email, code):
     msg.send()
 
 
+def identification(request):
+    lock = models.Lock.objects.get(lock_name='mornibear')
+    lock.lock_status = 1
+
+
 def root(request):
-    flag = 1
+    flag = 0
+    lock = models.Lock.objects.get(lock_name='mornibear')
+    if lock.lock_status is '1':
+        flag = 1
+        lock.lock_status = 0
     return render(request, 'login/root.html', locals())
 
 
