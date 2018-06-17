@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31870cf9-d536-4624-ac22-9252abbf4bdf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MyAppAboutLock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyAppAboutLock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAppAboutLock/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAboutLock/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+              <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -86,22 +82,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_lock" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login_lock" pinned="false" current-in-tab="true">
         <entry file="das://5f245097-9cd3-4522-a725-b60b417a8abc/schema/mysite/table/login_lock">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f245097-9cd3-4522-a725-b60b417a8abc/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="login_user" pinned="false" current-in-tab="false">
-        <entry file="das://5f245097-9cd3-4522-a725-b60b417a8abc/schema/mysite/table/login_user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -112,8 +94,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAppAboutLock/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="185">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="e#638#675#0" expanded="true" />
               </folding>
@@ -202,8 +184,8 @@
         <option value="$PROJECT_DIR$/login/templates/login/root.html" />
         <option value="$PROJECT_DIR$/h.py" />
         <option value="$PROJECT_DIR$/login/models.py" />
-        <option value="$PROJECT_DIR$/MyAppAboutLock/urls.py" />
         <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/MyAppAboutLock/urls.py" />
       </list>
     </option>
   </component>
@@ -213,9 +195,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-20" />
-    <option name="y" value="10" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="53" />
+    <option name="y" value="35" />
     <option name="width" value="1935" />
     <option name="height" value="1040" />
   </component>
@@ -303,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.h">
+  <component name="RunManager" selected="Django server.MyAppAboutLock">
     <configuration name="Huffman" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyAppAboutLock" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -407,9 +389,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="MyAppAboutLock.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\MorniBear\Desktop\something\Django\MyAppAboutLock\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -454,21 +436,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-491" y="406" width="1935" height="1040" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18967828" side_tool="true" weight="0.35240275" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19014461" side_tool="true" visible="true" weight="0.35897437" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49932975" weight="0.3293944" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8103217" weight="0.35302806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8098554" visible="true" weight="0.35897437" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.72922254" weight="0.3249428" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="8" sideWeight="0.51407504" visible="true" weight="0.3249428" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18522485" />
+      <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.51407504" weight="0.3249428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18532404" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.22912206" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.22924478" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -756,15 +737,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f245097-9cd3-4522-a725-b60b417a8abc/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/login/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyAppAboutLock/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="185">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="e#638#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -776,27 +771,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f245097-9cd3-4522-a725-b60b417a8abc/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="das://5f245097-9cd3-4522-a725-b60b417a8abc/schema/mysite/table/login_lock">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

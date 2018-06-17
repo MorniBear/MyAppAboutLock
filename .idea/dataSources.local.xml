@@ -11,5 +11,17 @@
       <user-name>root</user-name>
       <introspection-schemas>*:mysite</introspection-schemas>
     </data-source>
+    <data-source name="mysite@193.112.123.218 [2]" uuid="fee34fc1-6ffc-40ba-aa9c-c8e9c385723a">
+      <database-info product="MySQL" version="5.7.22-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+      <introspection-schemas>*:mysite</introspection-schemas>
+      <legacy-introspector>true</legacy-introspector>
+    </data-source>
   </component>
 </project>
