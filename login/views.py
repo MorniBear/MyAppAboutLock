@@ -46,6 +46,7 @@ def send_email(email, code):
 def identification(request):
     lock = models.Lock.objects.get(lock_name='mornibear')
     lock.lock_status = 1
+    return None
 
 
 def root(request):
