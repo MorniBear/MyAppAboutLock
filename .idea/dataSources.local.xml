@@ -18,7 +18,6 @@
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
       <user-name>root</user-name>
       <introspection-schemas>*:mysite</introspection-schemas>
       <legacy-introspector>true</legacy-introspector>
