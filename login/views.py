@@ -44,8 +44,8 @@ def send_email(email, code):
 
 
 def identification(request):
-    pwd = request.GET['password']
-    if pwd is "zxcv1234":
+    pwd = str(request.GET['password'])
+    if pwd == "zxcv1234":
         lock = models.Lock.objects.get(lock_name='mornibear')
         lock.lock_status = 1
         lock.save()
