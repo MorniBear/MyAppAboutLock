@@ -44,10 +44,14 @@ def send_email(email, code):
 
 
 def identification(request):
-    lock = models.Lock.objects.get(lock_name='mornibear')
-    lock.lock_status = 1
-    lock.save()
-    return render(request,'login/band.html')
+    pwd = request.GET['password']
+    if pwd is "zxcv1234":
+        lock = models.Lock.objects.get(lock_name='mornibear')
+        lock.lock_status = 1
+        lock.save()
+        return HttpResponse(str("ok"))
+    else:
+        return HttpResponse("Fail")
 
 
 def root(request):
