@@ -45,9 +45,14 @@ def send_email(email, code):
 
 def identification(request):
 <<<<<<< HEAD
+<<<<<<< HEAD
     pwd = str(request.GET['password'])
     time = int(request.GET['time'])
     if pwd == "zxcv1234":
+=======
+    pwd = request.GET['password']
+    if pwd is "zxcv1234":
+>>>>>>> parent of 78e82d2... 1
 =======
     pwd = request.GET['password']
     if pwd is "zxcv1234":
