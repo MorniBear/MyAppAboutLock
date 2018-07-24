@@ -46,26 +46,27 @@ def send_email(email, code):
 def identification(request):
 <<<<<<< HEAD
     pwd = str(request.GET['password'])
-    time = int(request.GET['time'])
     if pwd == "zxcv1234":
 =======
     pwd = request.GET['password']
     if pwd is "zxcv1234":
 >>>>>>> parent of 78e82d2... 1
         lock = models.Lock.objects.get(lock_name='mornibear')
-        lock.lock_status = time
+        lock.lock_status = 1
         lock.save()
-        return HttpResponse("ok")
+        return HttpResponse(str("ok"))
     else:
         return HttpResponse("Fail")
 
 
 def root(request):
+    flag = 0
     lock = models.Lock.objects.get(lock_name='mornibear')
-    flag = lock.lock_status
-    lock.lock_status = "close"
-    lock.save()
-    return HttpResponse(str(flag))
+    if lock.lock_status is '1':
+        flag = 1
+        lock.lock_status = 0
+        lock.save()
+    return render(request, 'login/root.html', locals())
 
 
 def index(request):
