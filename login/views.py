@@ -2,7 +2,6 @@ import datetime
 import hashlib
 
 import pytz
-from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 
@@ -43,6 +42,7 @@ def send_email(email, code):
     msg.send()
 
 
+<<<<<<< HEAD
 def identification(request):
 <<<<<<< HEAD
     pwd = str(request.GET['password'])
@@ -69,6 +69,8 @@ def root(request):
     return render(request, 'login/root.html', locals())
 
 
+=======
+>>>>>>> parent of a21ebc2... 11
 def index(request):
     pass
     return render(request, 'login/index.html')
