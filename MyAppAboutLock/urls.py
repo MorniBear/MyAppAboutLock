@@ -19,11 +19,8 @@ from django.contrib import admin
 from login import views
 
 urlpatterns = [
-<<<<<<< HEAD
     path('open/identification/', views.identification),
     path('', views.root),
-=======
->>>>>>> parent of a21ebc2... 11
     path('admin/', admin.site.urls),
     path('index/', views.index),
     path('login/', views.login),

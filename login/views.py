@@ -2,6 +2,7 @@ import datetime
 import hashlib
 
 import pytz
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 
@@ -42,15 +43,11 @@ def send_email(email, code):
     msg.send()
 
 
-<<<<<<< HEAD
 def identification(request):
-<<<<<<< HEAD
     pwd = str(request.GET['password'])
     if pwd == "zxcv1234":
-=======
-    pwd = request.GET['password']
+        pwd = request.GET['password']
     if pwd is "zxcv1234":
->>>>>>> parent of 78e82d2... 1
         lock = models.Lock.objects.get(lock_name='mornibear')
         lock.lock_status = 1
         lock.save()
@@ -69,8 +66,6 @@ def root(request):
     return render(request, 'login/root.html', locals())
 
 
-=======
->>>>>>> parent of a21ebc2... 11
 def index(request):
     pass
     return render(request, 'login/index.html')

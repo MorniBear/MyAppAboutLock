@@ -24,7 +24,7 @@ SECRET_KEY = 'w55lnk7fqh=204ko9ct59tn(&x)aenpb_ab6jv=rwy1w+1wh8#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '193.112.123.218', '47.100.50.103']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '193.112.123.218', '47.100.50.103','47.94.209.107']
 
 # Application definition
 
@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'mysite',
         'USER': 'root',
         'PASSWORD': 'zxcv1234',
-        'HOST': '193.112.123.218',
+        'HOST': '47.94.209.107',
         'PORT': '3306',
     }
 }
